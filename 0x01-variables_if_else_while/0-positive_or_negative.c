@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <time.h>
 /* more headers goes there */
-
 /**
 * main - entry point
 *
@@ -24,3 +23,4 @@ int main(void)
 		printf("%d is negative\n", n);
 	return (0);
 }
+
