@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include <stdio.h>
 /**
   * main - Entry point
-  * Return: Always 0 (Success)
+  *
+  *Return: Always o (Success)
  */
 int main(void)
 {
@@ -10,7 +11,6 @@ long int i2;
 long long int i3;
 char c;
 float f;
-
 
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(i));
