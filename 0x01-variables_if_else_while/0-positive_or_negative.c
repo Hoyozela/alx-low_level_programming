@@ -4,11 +4,11 @@
 /* more headers goes there */
 /**
  *main - entry point
- * 
+ *
  *Return: 0 if success
  */
 int main(void)
-{   
+{  
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
