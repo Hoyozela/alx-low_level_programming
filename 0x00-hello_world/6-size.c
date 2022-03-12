@@ -1,15 +1,16 @@
 #include <stdio.h>
-/**
-  *main - Entry point
-  *Return: Always 0 (Success)
-  */
+/*
+ *main - Entry point
+ *Description: A C programme that prints sizes of various types
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
-int i;
-long int i2;
-long long int i3;
-char c;
-float f;
+        int i;
+        long int i2;
+        long long int i3;
+        char c;
+        float f;
 
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(i));
