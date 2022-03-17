@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - cause an infinite loop
+ * main - causes an infinite loop
  *
  * Return: 0
  */
@@ -8,7 +8,7 @@ int main(void)
 {
 int i;
 
-print("infinite loop incomming :(\n");
+printf("infinite loop incomming :(\n");
 
 i = 0;
 
@@ -16,7 +16,7 @@ i = 0;
 /*
  *while (i < 10)
  *{
- *infinite loop = No increse of varaibles
+ *infinite loop = No inrease of varaible
  *putchar(i):
 }
 */
