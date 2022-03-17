@@ -2,7 +2,7 @@
 /**
  * main - cause an infinite loop
  *
- * Retur: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -12,9 +12,12 @@ print("infinite loop incomming :(\n");
 
 i = 0;
 
+
 /*
  *while (i < 10)
- *putchar(i);
+ *{
+ *infinite loop = No increse of varaibles
+ *putchar(i):
 }
 */
 
