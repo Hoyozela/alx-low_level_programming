@@ -16,7 +16,7 @@ i = 0;
 /*
  *while (i < 10)
  *{
- *infinite loop = No inrease of varaible
+ *infinite loop - No inrease of variable
  *putchar(i):
 }
 */
