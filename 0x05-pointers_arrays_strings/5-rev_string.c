@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * rev_string - prints a reverse string
- *@s: A pointer to an int that will be changed 
+ *@s: A pointer to an int that will be changed
  *
- *Returned: void
+ *Return: void
  */
 
 void rev_string(char *s)
@@ -17,13 +17,13 @@ for (i = 0; s[i]; i++)
 length++;
 }
 
-count = length
+count = length;
 
 start_c = s;
 end_c = s;
 
 
-for (i =0; i < count - 1; i++)
+for (i = 0; i < count - 1; i++)
 {
 end_c++;
 }
@@ -34,7 +34,7 @@ for (i = 0; i < count / 2; i++)
 
 
 c = *end_c;
-*end_ = *start_c;
+*end_c = *start_c;
 *start_c = c;
 
 
